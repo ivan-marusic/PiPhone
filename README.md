@@ -2,7 +2,7 @@
 
 A DIY phone based on Raspberry Pi 4, SIM7600G-H modem, and Nextion touchscreen, built with Buildroot.
 
-📟 Hardware Documentation
+📟 [Hardware Documentation](hardware.md)
 
 ---
 
@@ -20,7 +20,7 @@ A DIY phone based on Raspberry Pi 4, SIM7600G-H modem, and Nextion touchscreen, 
 - Nextion NX4832T035_011 touchscreen
 - Logic level shifter
 
-  See full hardware details here
+  See full hardware details [here](hardware.md)
 
 ## Software
 

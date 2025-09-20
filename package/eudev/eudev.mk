@@ -17,6 +17,9 @@ EUDEV_CONF_OPTS = \
 	--enable-kmod \
 	--enable-blkid
 
+EUDEV_CONF_ENV += ac_cv_file__usr_share_pkgconfig=yes
+EUDEV_CONF_ENV += PKG_CONFIG_PATH=$(HOST_DIR)/lib/pkgconfig
+
 # eudev requires only the util-linux libraries at build time
 EUDEV_DEPENDENCIES = host-gperf host-pkgconf util-linux-libs
 EUDEV_PROVIDES = udev

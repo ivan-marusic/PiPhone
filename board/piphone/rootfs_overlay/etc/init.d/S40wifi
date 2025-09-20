@@ -1,0 +1,17 @@
+#!/bin/sh
+
+### BEGIN INIT INFO
+# Provides:          wifi
+# Required-Start:    $all
+# Default-Start:     S
+# Default-Stop:
+# Short-Description: Pokreće WiFi pri bootu
+### END INIT INFO
+
+echo "[WiFi] Pokrećem wpa_supplicant..."
+wpa_supplicant -B -i wlan0 -c /etc/wpa_supplicant/wpa_supplicant.conf
+
+sleep 2
+
+echo "[WiFi] Dobivam IP adresu..."
+udhcpc -i wlan0

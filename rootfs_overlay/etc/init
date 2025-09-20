@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "Hello from PiPhone OS" > /dev/tty1
+echo "Hello from PiPhone OS" > /dev/ttyAMA0
+
+exec /bin/sh

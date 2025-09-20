@@ -1,0 +1,13 @@
+#!/bin/sh
+
+### BEGIN INIT INFO
+# Provides:          show_ip
+# Required-Start:    $all
+# Default-Start:     S
+# Default-Stop:
+# Short-Description: Prikazuje IP adresu wlan0 pri bootu
+### END INIT INFO
+
+echo "[WiFi] IP adresa wlan0 sučelja:"
+ip -4 addr show wlan0 | grep -oP '(?<=inet\s)\d+(\.\d+){3}'
+

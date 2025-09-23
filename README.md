@@ -24,7 +24,7 @@ A DIY phone based on Raspberry Pi 4, SIM7600G-H modem, and Nextion touchscreen, 
 
 ## Software
 
-- Buildroot config and overlays in `/buildroot`
+- Buildroot config and overlays are in [`/board`](board), [`/configs`](configs), and [`rootfs_overlay`](rootfs_overlay)
 - Nextion HMI files and scripts in [`/nextion`](nextion/)
 - Custom scripts for dialing, AT commands, etc.
 

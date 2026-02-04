@@ -1,0 +1,5 @@
+config BR2_PACKAGE_PYTHON3_PYSERIAL
+    bool "python3-pyserial"
+    depends on BR2_PACKAGE_PYTHON3
+    help
+      Python 3 serial module (pyserial)

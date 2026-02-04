@@ -1,0 +1,21 @@
+#!/bin/sh
+
+echo "Hello from PiPhone OS"
+
+/sbin/modprobe brcmfmac
+sleep 2
+
+# Pokreni wpa_supplicant
+wpa_supplicant -B -i wlan0 -c /etc/wpa_supplicant/wpa_supplicant.conf
+
+# DHCP za IP adresu
+udhcpc -i wlan0
+
+# Ispiši IP adresu
+ip a
+
+# Pokreni SSH server
+/usr/sbin/dropbear -E
+
+exec /bin/sh
+

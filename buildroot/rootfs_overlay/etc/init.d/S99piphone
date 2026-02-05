@@ -1,3 +1,0 @@
-#!/bin/sh
-echo "Pokrećem PiPhone UART listener..."
-python3 /usr/bin/uart_listener.py &

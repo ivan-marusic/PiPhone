@@ -1,0 +1,9 @@
+# Autologin on tty1
+tty1::respawn:/sbin/getty -n -l /bin/sh 0 tty1
+
+# Autologin for serial console
+ttyAMA0::respawn:/sbin/getty -n -l /bin/sh 115200 ttyAMA0
+
+# Starting Python script
+::respawn:/usr/bin/python3 /usr/bin/call_handler.py
+

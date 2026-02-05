@@ -22,3 +22,4 @@ __pycache__/
 buildroot-external/overlays/rootfs/etc/wpa_supplicant/wpa_supplicant.conf
 
 buildroot-external/overlays/rootfs/etc/wpa_supplicant/wpa_supplicant.conf.local
+PiPhone.code-workspace

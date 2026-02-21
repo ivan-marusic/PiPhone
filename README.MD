@@ -88,7 +88,7 @@ The Nextion touchscreen is used as the main user interface for PiPhone.
 3. **Build:**
     ```bash
     cd buildroot
-    make BR2_EXTERNAL=../PiPhone/buildroot-external piphone     _defconfig
+    make BR2_EXTERNAL=../PiPhone/buildroot-external piphone_defconfig
     make -j"$(nproc)"
     ```
 4. **Finished image location:**

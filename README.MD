@@ -97,8 +97,7 @@ The Nextion touchscreen is used as the main user interface for PiPhone.
     ```
 5. **Flashing the SD Card:**
     ```bash
-    sudo dd if=output/images/sdcard.img of=/dev/sdX bs=4M 
-status=progress conv=fsync
+    sudo dd if=output/images/sdcard.img of=/dev/sdX bs=4M status=progress conv=fsync
     sync
     ```
     Replace /dev/sdX with the correct SD device (lsblk).

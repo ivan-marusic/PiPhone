@@ -63,6 +63,9 @@ The Nextion touchscreen is used as the main user interface for PiPhone.
 
 ### Screenshots
 #### Main Screen
+<p align="center">
+  <img src="nextion/main_keypad.jpg" width="300" />
+</p>
 ![Main Screen](nextion/main_keypad.jpg)
 #### Dialing Screen
 ![Dialing Screen](nextion/dialing.jpg)

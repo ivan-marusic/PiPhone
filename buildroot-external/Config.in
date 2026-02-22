@@ -1,0 +1,5 @@
+menu "PiPhone external"
+
+#  source "package/piphone-agent/Config.in"
+#  source "package/piphone-ui/Config.in"
+endmenu

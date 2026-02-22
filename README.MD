@@ -76,8 +76,20 @@ The Nextion touchscreen is used as the main user interface for PiPhone.
 
 - [**software/PiPhoneUI.HMI**](nextion/novitest3.HMI) — Source file for editing in Nextion Editor
 - [**software/PiPhoneUI.tft**](nextion/novitest3.tft) — Compiled file for uploading to the Nextion display
+### Uploading the `.tft` File to the Nextion Display
 
-### Screenshots
+To flash the Nextion screen with the PiPhone UI:
+1. Copy the `.tft` file from the `nextion/` folder
+2. Place the file on a **microSD card** (formatted FAT32).
+3. Insert the microSD card into the Nextion display.
+4. Power on the Nextion.
+5. The screen will automatically:
+- detect the `.tft` firmware,
+- flash the display,
+- and reboot when finished.
+6. Remove the SD card after flashing.
+
+## Screenshots
 #### Main Screen
 <p align="center">
   <img src="nextion/main_keypad.jpg" width="300" />

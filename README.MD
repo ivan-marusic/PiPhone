@@ -38,7 +38,14 @@ A DIY phone based on Raspberry Pi 4, SIM7600G-H modem, and Nextion touchscreen, 
   <img src="images/wire_diagram_.drawio.png" width="700" />
 </p>
 
-### Hardware Setup 
+## Hardware Close‑ups
+### SIM7600G-H Module + GPS Antenna
+
+<p align="center">
+    <img src="images/SIM7600G-H.jpg" width="600" />
+</p>
+
+### Full Hardware Setup
 <p align="center">
   <img src="images/hardware_setup.jpg" width="600" />
 </p>

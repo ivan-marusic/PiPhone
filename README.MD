@@ -22,7 +22,7 @@ A DIY phone based on Raspberry Pi 4, SIM7600G-H modem, and Nextion touchscreen, 
     - MAIN (LTE antenna)
     - GNSS antenna
 - regular SIM card
-- SD card for flashing image on RPi 4
+- MicroSD Card for flashing image on RPi 4
 - Nextion NX4832T035_011 touchscreen
 - SD card for upload `.tft` to Nextion display
 - Logic level shifter(required for Nextion RX)

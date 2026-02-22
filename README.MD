@@ -51,10 +51,10 @@ A DIY phone based on Raspberry Pi 4, SIM7600G-H modem, and Nextion touchscreen, 
 </p>
 
 ## Software
-- Buildroot external tree is in: [`buildroot-external/`](buildroot-external)
-- Overlays are in: [`buildroot-external/overlays/rootfs/`](buildroot-external/overlays/rootfs)
+- Buildroot external tree is in: [`buildroot-external/`]
+- Overlays are in: [`buildroot-external/overlays/rootfs/`]
 - Configs are in: [`buildroot-external/configs/piphone_defconfig`](buildroot-external/configs/piphone_defconfig)
-- Kernel fragments are in: [`buildroot-external/linux/fragments/`](buildroot-external/linux/fragments)
+- Kernel fragments are in: [`buildroot-external/linux/fragments/`]
 - call_handler.py is in: [`buildroot-external/overlays/rootfs/usr/bin/call_handler.py`](buildroot-external/overlays/rootfs/usr/bin/call_handler.py)
 
 ### Python Serial Script

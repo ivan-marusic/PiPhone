@@ -33,6 +33,11 @@ A DIY phone based on Raspberry Pi 4, SIM7600G-H modem, and Nextion touchscreen, 
 - Breadboard
   
   See full hardware details [here](docs/hardware.md)
+### Wiring Diagram
+<p align="center">
+  <img src="images/wire_diagram_.drawio.png" width="700" />
+</p>
+``
 
 ## Software
 - Buildroot external tree is in: `buildroot-external/`

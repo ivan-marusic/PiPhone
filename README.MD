@@ -124,7 +124,7 @@ To flash the Nextion screen with the PiPhone UI:
     ```bash
     git clone https://github.com/buildroot/buildroot.git
     ```
-2. **2. Clone this repository:**
+2. **Clone this repository:**
    ```bash
    git clone https://github.com/ivan-marusic/PiPhone.git
    ```

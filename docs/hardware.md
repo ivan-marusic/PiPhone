@@ -2,6 +2,8 @@ The PiPhone is a DIY mobile phone built using:
 
 - **Raspberry Pi 4** as the main computing unit
 - **SIM7600G-H 4G modem** for cellular connectivity
+- **MAIN LTE antenna** → required
+- **GNSS antenna** → optional (only for GPS)
 - **Nextion NX4832T035_011 touchscreen** for user interface
 - **Logic level shifter** to safely connect 5V Nextion UART to 3.3V Pi UART
 - **Power supply** (5V 3A recommended)

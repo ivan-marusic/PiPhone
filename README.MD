@@ -74,8 +74,7 @@ The Nextion touchscreen is used as the main user interface for PiPhone.
 
 ### Files
 
-- [**software/PiPhoneUI.HMI**](nextion/novitest3.HMI) — Source file for editing in Nextion Editor
-- [**software/PiPhoneUI.tft**](nextion/novitest3.tft) — Compiled file for uploading to the Nextion display
+- [**software/PiPhoneUI.HMI**](software/Nextion_PiPhone.HMI) — Source file for editing in Nextion Editor
 
 ### Uploading the `.tft` File to the Nextion Display
 

@@ -1,13 +1,25 @@
-buildroot-external/overlays/rootfs/etc/wpa_supplicant/wpa_supplicant.conf
-buildroot-external/overlays/rootfs/etc/wpa_supplicant/wpa_supplicant.conf.local
-
+# Buildroot generated folders
 buildroot/output/
-
 buildroot/dl/
 buildroot/board/*/images/
+
+# Buildroot config files (generated)
 buildroot/.config
 buildroot/.config.old
+
+# Buildroot temporary and stamp files
+buildroot/.stamp*
+buildroot/*.mk
+
+
+# Compiled Nextion firmware (DO NOT TRACK)
 nextion/*.tft
+*.tft
+
+# Nextion temp/backup files
+*.bak
+*.tmp
+
 *.img
 *.img.xz
 *.iso
@@ -18,8 +30,18 @@ nextion/*.tft
 
 __pycache__/
 *.pyc
+*.pyo
+
 
 buildroot-external/overlays/rootfs/etc/wpa_supplicant/wpa_supplicant.conf
-
 buildroot-external/overlays/rootfs/etc/wpa_supplicant/wpa_supplicant.conf.local
-PiPhone.code-workspace
+
+
+.idea/
+*.iml
+
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~

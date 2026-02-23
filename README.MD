@@ -91,28 +91,6 @@ To flash the Nextion screen with the PiPhone UI:
 
 ## Screenshots
 
-#### Main Screen
-<p align="center">
-  <img src="nextion/main_keypad.jpg" width="300" />
-</p>
-
-#### Dialing Screen
-<p align="center">
-  <img src="nextion/dialing.jpg" width="300" />
-</p>
-
-#### Call Screen
-<p align="center">
-  <img src="nextion/call_screen.jpg" width="300" />
-</p>
-
-#### Incoming Call
-<p align="center">
-  <img src="nextion/incoming_call.jpg" width="300" />
-</p>
-
-## Screenshots
-
 <div align="center">
 
 <table>

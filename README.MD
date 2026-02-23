@@ -111,6 +111,24 @@ To flash the Nextion screen with the PiPhone UI:
   <img src="nextion/incoming_call.jpg" width="300" />
 </p>
 
+## Screenshots
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center"><strong>Main Screen</strong><br><img src="nextion/main_keypad.jpg" width="250"></td>
+    <td align="center"><strong>Dialing Screen</strong><br><img src="nextion/dialing.jpg" width="250"></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Call Screen</strong><br><img src="nextion/call_screen.jpg" width="250"></td>
+    <td align="center"><strong>Incoming Call</strong><br><img src="nextion/incoming_call.jpg" width="250"></td>
+  </tr>
+</table>
+
+</div>
+
+
 ### How to Use
 
 1. Open `software/PiPhoneUI.HMI` in Nextion Editor.
